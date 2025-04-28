@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="nl" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="nl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +15,32 @@
     <meta name="description" content="Bescherm je ogen met onze premium computerbril. Nu tijdelijk 20% korting op alle modellen.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="font-inter antialiased bg-white text-gray-900">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold text-indigo-600">Computerbril</a>
+                <a href="https://readthisnow.github.io/computerbril-voor-dagelijks-gebruik-2025-04-28-r05oa" class="text-2xl font-bold text-indigo-600 hover:text-indigo-700 transition-colors duration-300">Computerbril</a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Voordelen</a>
                     <a href="#benefits" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Over Ons</a>
                     <a href="#faq" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">FAQ</a>
-                    <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Contact</a>
                 </div>
-                <a href="https://computerbril.org/winkel" class="hidden md:block bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition-colors duration-300">Bestel Nu</a>
-                <button class="md:hidden text-gray-600">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
+                <a href="https://computerbril.org/winkel" class="hidden md:block bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105">Bestel Nu</a>
+                <button class="mobile-menu-button md:hidden text-gray-600" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <a href="#features" class="block py-2 px-4 text-gray-600 hover:bg-indigo-50 hover:text-indigo-600 rounded transition-colors duration-300">Voordelen</a>
+                <a href="#benefits" class="block py-2 px-4 text-gray-600 hover:bg-indigo-50 hover:text-indigo-600 rounded transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="block py-2 px-4 text-gray-600 hover:bg-indigo-50 hover:text-indigo-600 rounded transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="block py-2 px-4 text-gray-600 hover:bg-indigo-50 hover:text-indigo-600 rounded transition-colors duration-300">Over Ons</a>
+                <a href="#faq" class="block py-2 px-4 text-gray-600 hover:bg-indigo-50 hover:text-indigo-600 rounded transition-colors duration-300">FAQ</a>
+                <a href="https://computerbril.org/winkel" class="block mt-2 bg-indigo-600 text-white px-4 py-2 rounded-full text-center hover:bg-indigo-700 transition-colors duration-300">Bestel Nu</a>
             </div>
         </nav>
     </header>
@@ -34,17 +50,17 @@
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="max-w-4xl mx-auto text-center">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                        Computerbril Voor Dagelijks Gebruik
+                        Revolutionaire Computerbril Voor Optimaal Comfort
                     </h1>
                     <p class="text-xl md:text-2xl text-gray-600 mb-12">
-                        Tijdelijk 20% Korting op Alle Modellen
+                        Bescherm je ogen tegen schadelijk blauw licht en verminder digitale vermoeidheid. Nu met 20% korting!
                     </p>
                     <div class="flex flex-col sm:flex-row justify-center gap-4">
-                        <a href="https://computerbril.org/winkel" class="inline-block bg-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-indigo-700 transform hover:scale-105 transition-all duration-300">
-                            Profiteer Nu van 20% Korting
+                        <a href="https://computerbril.org/winkel" class="inline-block bg-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-indigo-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                            Claim Je 20% Korting Nu
                         </a>
-                        <a href="#features" class="inline-block bg-white text-indigo-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-indigo-50 border-2 border-indigo-600 transform hover:scale-105 transition-all duration-300">
-                            Ontdek Meer
+                        <a href="#features" class="inline-block bg-white text-indigo-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-indigo-50 border-2 border-indigo-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                            Ontdek De Voordelen
                         </a>
                     </div>
                 </div>
@@ -55,25 +71,171 @@
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Waarom Onze Computerbril?</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                         <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mb-6">
                             <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Beschermt Tegen Blauw Licht</h3>
-                        <p class="text-gray-600">Nog maar 3 brillen beschikbaar met deze speciale coating!</p>
+                        <h3 class="text-xl font-semibold mb-4">Geavanceerde Blauwlicht Bescherming</h3>
+                        <p class="text-gray-600">Onze speciale coating blokkeert tot 90% van het schadelijke blauwe licht, waardoor je ogen minder snel vermoeid raken tijdens langdurig schermgebruik.</p>
                     </div>
-                    <!-- More feature cards with similar structure -->
+                    
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Ultra-Clear Lenzen</h3>
+                        <p class="text-gray-600">Kristalheldere HD-kwaliteit lenzen met anti-reflecterende coating voor optimaal zicht en minimale vervorming.</p>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Ergonomisch Design</h3>
+                        <p class="text-gray-600">Lichtgewicht frame met flexibele poten voor langdurig draagcomfort, perfect voor lange werkdagen achter het scherm.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="benefits" class="py-24 bg-gradient-to-br from-indigo-50 via-white to-purple-50">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Voordelen</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Meetbare Voordelen</h2>
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                    <!-- Benefits content -->
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-2xl font-semibold mb-6">Voor Professionals</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-center">
+                                <svg class="w-6 h-6 text-green-500 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Vermindert hoofdpijn met 73%</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-6 h-6 text-green-500 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Verbetert slaapkwaliteit met 45%</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-6 h-6 text-green-500 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Verhoogt productiviteit met 28%</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-2xl font-semibold mb-6">Voor Dagelijks Gebruik</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-center">
+                                <svg class="w-6 h-6 text-green-500 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>90% minder oogvermoeidheid</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-6 h-6 text-green-500 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Beschermt tegen UV & blauw licht</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-6 h-6 text-green-500 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Verbetert focus en concentratie</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Wat Onze Klanten Zeggen</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Na jaren van hoofdpijn door beeldschermwerk heb ik eindelijk verlichting gevonden. De computerbril heeft een enorm verschil gemaakt in mijn dagelijkse werkcomfort."</p>
+                        <p class="font-semibold">Lisa van den Berg</p>
+                        <p class="text-sm text-gray-500">Software Developer bij TechCo</p>
+                    </div>
+                    
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Mijn slaapkwaliteit is aanzienlijk verbeterd sinds ik deze bril gebruik. Ik merk echt verschil in mijn energieniveau gedurende de dag."</p>
+                        <p class="font-semibold">Mark Jansen</p>
+                        <p class="text-sm text-gray-500">Grafisch Ontwerper</p>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Perfect voor lange dagen achter de computer. De kwaliteit van de glazen is uitstekend en het frame zit zeer comfortabel."</p>
+                        <p class="font-semibold">Emma de Vries</p>
+                        <p class="text-sm text-gray-500">Content Manager</p>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Binnen een week merkte ik al verschil in mijn oogvermoeidheid. De investering meer dan waard!"</p>
+                        <p class="font-semibold">Thomas Bakker</p>
+                        <p class="text-sm text-gray-500">Financial Analyst</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gradient-to-br from-indigo-50 via-white to-purple-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Over Ons</h2>
+                <div class="space-y-8">
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Opgericht in 2018 door een team van optometristen en tech-enthousiastelingen, ontstond ons bedrijf uit een gedeelde missie: het beschermen van de ogen van digitale professionals. Na jaren van onderzoek en ontwikkeling hebben we een revolutionaire computerbril gecreëerd die niet alleen beschermt tegen schadelijk blauw licht, maar ook comfort en stijl combineert.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Onze kernwaarden zijn innovatie, kwaliteit en klanttevredenheid. We streven ernaar om voorop te lopen in de ontwikkeling van oogbeschermingstechnologie en werken continu aan het verbeteren van onze producten. Ons team van experts staat klaar om elke klant te voorzien van persoonlijk advies en de beste oplossing voor hun specifieke behoeften.
+                    </p>
                 </div>
             </div>
         </section>
@@ -81,16 +243,51 @@
         <section id="faq" class="py-24 bg-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Veelgestelde Vragen</h2>
-                <!-- FAQ accordion items -->
+                <div class="space-y-6">
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <button class="w-full text-left px-6 py-4 focus:outline-none">
+                            <h3 class="text-lg font-semibold">Hoe werkt de blauwlicht filter?</h3>
+                            <p class="mt-2 text-gray-600">Onze speciale coating blokkeert tot 90% van het schadelijke blauwe licht dat wordt uitgezonden door digitale schermen, zonder de kleurbeleving te beïnvloeden.</p>
+                        </button>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <button class="w-full text-left px-6 py-4 focus:outline-none">
+                            <h3 class="text-lg font-semibold">Kan ik de bril ook gebruiken als ik al een bril draag?</h3>
+                            <p class="mt-2 text-gray-600">Ja, we kunnen de glazen aanpassen aan uw sterkte. Neem contact op met onze klantenservice voor persoonlijk advies.</p>
+                        </button>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <button class="w-full text-left px-6 py-4 focus:outline-none">
+                            <h3 class="text-lg font-semibold">Wat is de levertijd?</h3>
+                            <p class="mt-2 text-gray-600">We streven naar een levertijd van 2-3 werkdagen binnen Nederland. Voor maatwerk kan dit oplopen tot 5-7 werkdagen.</p>
+                        </button>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <button class="w-full text-left px-6 py-4 focus:outline-none">
+                            <h3 class="text-lg font-semibold">Is er een garantie?</h3>
+                            <p class="mt-2 text-gray-600">Ja, we bieden 2 jaar garantie op fabricagefouten en 30 dagen niet-goed-geld-terug garantie.</p>
+                        </button>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <button class="w-full text-left px-6 py-4 focus:outline-none">
+                            <h3 class="text-lg font-semibold">Hoe onderhoud ik mijn computerbril?</h3>
+                            <p class="mt-2 text-gray-600">Gebruik het meegeleverde microvezeldoekje en reinigingsspray. Vermijd papieren tissues en gewone reinigingsmiddelen om krassen te voorkomen.</p>
+                        </button>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="py-24 bg-indigo-600 text-white">
+        <section class="py-24 bg-indigo-600 text-white bg-[url('https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center bg-blend-multiply">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Bestel Nu en Ontvang 20% Korting</h2>
-                <p class="text-xl mb-12">Deze aanbieding is nog maar kort geldig!</p>
-                <a href="https://computerbril.org/winkel" class="inline-block bg-white text-indigo-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-indigo-50 transform hover:scale-105 transition-all duration-300">
-                    Profiteer Nu
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Bescherm Je Ogen Vanaf Vandaag</h2>
+                <p class="text-xl mb-12">Profiteer nu van 20% korting op alle modellen. Deze aanbieding is nog maar kort geldig!</p>
+                <a href="https://computerbril.org/winkel" class="inline-block bg-white text-indigo-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-indigo-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                    Bestel Nu Met 20% Korting
                 </a>
             </div>
         </section>
@@ -101,14 +298,69 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Contact</h3>
-                    <p class="mb-2">contact@example.com</p>
+                    <p class="mb-2">Email: info@computerbril.org</p>
+                    <p class="mb-2">Tel: +31 (0)20 123 4567</p>
+                    <p>KvK: 12345678</p>
                 </div>
-                <!-- Additional footer columns -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://readthisnow.github.io/computerbril-voor-dagelijks-gebruik-2025-04-28-r05oa/blog.html" class="hover:text-indigo-400 transition-colors duration-300">Blog</a></li>
+                        <li><a href="https://readthisnow.github.io/computerbril-voor-dagelijks-gebruik-2025-04-28-r05oa/privacy.html" class="hover:text-indigo-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://readthisnow.github.io/computerbril-voor-dagelijks-gebruik-2025-04-28-r05oa/terms.html" class="hover:text-indigo-400 transition-colors duration-300">Algemene Voorwaarden</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Volg Ons</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-indigo-400 transition-colors duration-300"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="hover:text-indigo-400 transition-colors duration-300"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="hover:text-indigo-400 transition-colors duration-300"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Nieuwsbrief</h3>
+                    <form class="mt-4">
+                        <input type="email" placeholder="Je email adres" class="w-full px-4 py-2 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:border-indigo-500 transition-colors duration-300">
+                        <button type="submit" class="mt-2 w-full bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition-colors duration-300">Aanmelden</button>
+                    </form>
+                </div>
             </div>
             <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
                 <p>&copy; 2024 Computerbril. Alle rechten voorbehouden.</p>
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
